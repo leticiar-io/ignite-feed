@@ -4,13 +4,13 @@ import styles from "./Comment.module.css";
 export function Comment() {
   return (
     <div className={styles.comment}>
-      <img src="https://github.com/leticiar-io.png" />
+      <img src="https://github.com/Leanderson01.png" />
 
       <div className={styles.commentBox}>
         <div className={styles.commentContent}>
           <header>
             <div className={styles.authorAndTime}>
-              <strong>Diego da Rodinha</strong>
+              <strong>Leanderson Nunes</strong>
               <time
                 title="11 de janeiro às 08h13h"
                 dateTime="2023-01-11 08:13:30"
@@ -20,15 +20,17 @@ export function Comment() {
             </div>
 
             <button title="Deletar comentário">
-              <Trash size={20} />
+              <Trash size={24} />
             </button>
           </header>
           <p>Muito bom!</p>
         </div>
 
         <footer>
-          <ThumbsUp />
-          Aplaudir <span>20</span>
+          <button>
+            <ThumbsUp />
+            Aplaudir <span>20</span>
+          </button>
         </footer>
       </div>
     </div>
