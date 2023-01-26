@@ -1,4 +1,5 @@
 import { PencilLine } from "phosphor-react";
+import { Avatar } from "./Avatar";
 
 import styles from "./Sidebar.module.css";
 
@@ -11,10 +12,7 @@ export function Sidebar() {
       />
 
       <div className={styles.profile}>
-        <img
-          className={styles.avatar}
-          src="https://avatars.githubusercontent.com/u/76667887?v=4"
-        />
+        <Avatar hasBorder src="https://github.com/leticiar-io.png" />
 
         <strong>Letícia Rodrigues</strong>
         <span>Web developer & UI Designer</span>
@@ -22,7 +20,7 @@ export function Sidebar() {
 
       <footer>
         <a href="#">
-          <PencilLine size={20}/>
+          <PencilLine size={20} />
           Editar seu perfil
         </a>
       </footer>
