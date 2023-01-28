@@ -12,7 +12,7 @@ export function Sidebar() {
       />
 
       <div className={styles.profile}>
-        <Avatar hasBorder src="https://github.com/leticiar-io.png" />
+        <Avatar alt="User Avatar" hasBorder src="https://github.com/leticiar-io.png" />
 
         <strong>Letícia Rodrigues</strong>
         <span>Web developer & UI Designer</span>
